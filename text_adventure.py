@@ -78,10 +78,15 @@ def moveTo (d):
   currentMap[oldY] = oldYString[y]
   for j in range(12):
     print(currentMap[j])
+def select ():
+    if ()
 map('town','null')
 y = 6
 x = 14
+
 while (cInput != '**'):
   cInput = input()
   if (cInput == 8 or 6 or 4 or 2):
     moveTo(cInput)
+  if (cInput == 5):
+    select()
